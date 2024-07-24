@@ -1,8 +1,8 @@
 <script setup></script>
 <template>
   <div class="logo">
-    <img src="@/assets/logo.png" alt="FakeStore Logo" />
-    <h2>FakeStore</h2>
+    <img src="@/assets/logo.png" alt="Garagem Logo" />
+    <h2>Garagem</h2>
   </div>
 </template>
 

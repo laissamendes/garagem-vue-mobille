@@ -1,6 +1,7 @@
 <script setup>
 import LogoTitle from '@/components/templates/LogoTitle.vue';
 </script>
+
 <template>
   <div class="logo_and_menu">
     <logo-title class="mb-2" />
@@ -21,8 +22,8 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
       <router-link to="/categoria">
         <i class="icon mdi mdi-cart-outline" /> Categoria
       </router-link>
-      <router-link to="/cores">
-        <i class="icon mdi mdi-cart-outline" /> Cores
+      <router-link to="/cor">
+        <i class="icon mdi mdi-cart-outline" /> Cor
       </router-link>
       <router-link to="/marca">
         <i class="icon mdi mdi-cart-outline" /> Marca

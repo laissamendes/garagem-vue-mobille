@@ -27,6 +27,7 @@ onBeforeRouteUpdate(() => {
     <router-link to="/marca">
       <i class="icon mdi mdi-cart-outline" /> Marca
     </router-link>
+
     <RouterLink to="/login">
       <i class="mdi mdi-account" />
       Login
@@ -36,10 +37,6 @@ onBeforeRouteUpdate(() => {
     <RouterLink to="/">
       <i class="mdi mdi-home-outline" />
       Home
-    </RouterLink>
-    <RouterLink to="/">
-      <i class="mdi mdi-account-circle-outline" />
-      Perfil
     </RouterLink>
     <div class="hamburger" @click="showMenu = !showMenu">
 <i class="mdi mdi-menu"></i> Menu

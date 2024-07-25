@@ -1,6 +1,6 @@
 <script setup>
 import { ref, reactive, onMounted } from "vue";
-import AcessoriosApi from "@/api/acessorios";
+import AcessoriosApi from "@/api/acessorios.js";
 const acessoriosApi = new AcessoriosApi();
 
 const defaultAcessorio = { id: null, descricao: "" };

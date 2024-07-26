@@ -7,7 +7,7 @@ import LogoTitle from '@/components/templates/LogoTitle.vue';
     <logo-title class="mb-2" />
     <div class="divider" />
     <div class="menu">
-      <router-link to="/">
+      <router-link to="/home">
         <i class="icon mdi mdi-home-outline" /> Home
       </router-link>
     </div>

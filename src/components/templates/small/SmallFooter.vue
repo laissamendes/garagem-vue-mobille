@@ -34,7 +34,7 @@ onBeforeRouteUpdate(() => {
     </RouterLink>
   </div>
   <div class="icons">
-    <RouterLink to="/">
+    <RouterLink to="/home">
       <i class="mdi mdi-home-outline" />
       Home
     </RouterLink>

@@ -57,6 +57,7 @@ main {
   min-height: 80%;
   padding: 2rem;
   grid-area: main;
+  color: #373c57;
 }
 
 footer {

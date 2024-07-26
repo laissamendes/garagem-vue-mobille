@@ -37,7 +37,7 @@ async function excluir(id) {
 </script>
 
 <template>
-  <h1>Cor</h1>
+  <h1>Cor <i class="icon mdi mdi-palette"/></h1>
   <div class="form">
     <input type="text" v-model="cor.nome" placeholder="Nome" />
     <button @click="salvar">Salvar</button>
@@ -53,4 +53,30 @@ async function excluir(id) {
   </ul>
 </template>
 
-<style></style>
+<style scoped>
+i{
+  color: #373c57;
+}
+input{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
+  border-style: none;
+  height: 20px;
+  border-radius: 2px;
+  margin: 5px;
+}
+button{
+  margin: 5px;
+  border-style: none;
+  border-radius: 2px;
+  height: 20px;
+  background-color: #373c5759;
+  color: white;
+}
+input:hover{
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.39);
+
+}
+button:hover{
+  background-color: #4d547a73;
+}
+</style>

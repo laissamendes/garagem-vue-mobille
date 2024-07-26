@@ -1,9 +1,9 @@
 <script setup></script>
 <template>
   <div class="links">
-    <RouterLink to="/">Help</RouterLink>
-    <RouterLink to="/">Contact Us</RouterLink>
-    <RouterLink to="/">Privacy & Terms</RouterLink>
+    <RouterLink to="/">Ajuda</RouterLink>
+    <RouterLink to="/">Fale conosco</RouterLink>
+    <RouterLink to="/">Termos & Privacidade</RouterLink>
   </div>
   <div class="icons">
     <i class="mdi mdi-facebook" />
@@ -18,11 +18,12 @@
   width: 100%;
   gap: 4rem;
   font-size: 1.2rem;
-  color: #000;
+  color: #373c57;
 }
 
 .links a {
   text-decoration: none;
+  color: #373c57;
 }
 
 .icons {

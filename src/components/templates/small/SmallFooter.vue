@@ -10,23 +10,23 @@ onBeforeRouteUpdate(() => {
 </script>
 
 <template>
-    <div id="footerMenu" :style="{ display: showMenu ? 'block' : 'none' }">
+    <div id="footerMenu" :style="{ display: showMenu ? 'block' : 'none'}">
     <RouterLink to="/">
       <i class="mdi mdi-home-outline" />
       Home
     </RouterLink>
     <router-link to="/acessorio">
-      <i class="icon mdi mdi-cart-outline" /> Acessório
-    </router-link>
-    <router-link to="/categoria">
-      <i class="icon mdi mdi-cart-outline" /> Categoria
-    </router-link>
-    <router-link to="/cor">
-      <i class="icon mdi mdi-cart-outline" /> Cor
-    </router-link>
-    <router-link to="/marca">
-      <i class="icon mdi mdi-cart-outline" /> Marca
-    </router-link>
+        <i class="mdi mdi-radio" /> Acessório
+      </router-link>
+      <router-link to="/categoria">
+        <i class="mdi mdi-car-hatchback" /> Categoria
+      </router-link>
+      <router-link to="/cor">
+        <i class="mdi mdi-palette"/> Cor
+      </router-link>
+      <router-link to="/marca">
+        <i class="mdi mdi-postage-stamp" /> Marca
+      </router-link>
 
     <RouterLink to="/login">
       <i class="mdi mdi-account" />
@@ -48,10 +48,10 @@ onBeforeRouteUpdate(() => {
     position: fixed;
     bottom: 15%;
     right: 0;
-
     width: 20%;
     border-top: #EEEEEE 1px solid;
     background-color: white;
+    color: #373c57 ;
 
     display: block;
     padding: 1rem;
@@ -62,9 +62,11 @@ onBeforeRouteUpdate(() => {
     width: 100%;
     justify-content: space-between;
     text-decoration: none;
-    color: #282828;
+    background-color: #ffffff ;
     font-size: 1rem;
     transition: color 0.3s;
+    color: #373c57 ;
+
 }
 
 
@@ -81,7 +83,7 @@ onBeforeRouteUpdate(() => {
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: #282828;
+    color: white;
     font-size: 1rem;
     transition: color 0.3s;
 }

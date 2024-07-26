@@ -38,6 +38,8 @@ header {
   justify-content: flex-end;
   padding: 1.5rem;
   grid-area: header;
+  color: #373c57;
+
 }
 
 aside {
@@ -49,6 +51,8 @@ aside {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   grid-area: aside;
+  background-color: #373c57a2;
+  color: white;
 }
 
 main {
@@ -62,7 +66,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 3rem;
-  background-color: #eeeeee;
+  background-color: #373c5759;
   grid-area: footer;
+  color: white;
 }
 </style>

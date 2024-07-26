@@ -2,15 +2,11 @@
 </script>
 <template>
   <div class="links">
-    <RouterLink to="/">Help</RouterLink>
-    <RouterLink to="/">Contact Us</RouterLink>
-    <RouterLink to="/">Privacy & Terms</RouterLink>
+    <RouterLink to="/">Ajuda</RouterLink>
+    <RouterLink to="/">Fale conosco</RouterLink>
+    <RouterLink to="/">Termos & Privacidade</RouterLink>
   </div>
-  <div class="icons">
-    <i class="mdi mdi-facebook" />
-    <i class="mdi mdi-twitter" />
-    <i class="mdi mdi-instagram" />
-  </div>
+
 </template>
 <style scoped>
 .links {
@@ -22,15 +18,9 @@
 }
 
 .links a {
-  color: #000;
+  color: #373c57;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.icons {
-  padding-right: 3rem;
-  display: flex;
-  gap: 4rem;
-  align-items: center;
-}
 </style>

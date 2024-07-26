@@ -56,13 +56,12 @@ footer {
   box-shadow: 0 0 10px 0 #eeeeee;
   padding: 1.5rem;
   margin-top: auto;
-  background-color: white;
-
+  background-color: #373c5759;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: #373c57;
   text-align: center;
   z-index: 10;
 }
